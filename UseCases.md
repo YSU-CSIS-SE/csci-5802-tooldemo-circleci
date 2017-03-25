@@ -20,3 +20,12 @@ Authors: Pradeep Makkena and Cody Rigney
   - `circle.yml` will run commands needed to install libraries for build, etc.
  - Add the large open source project to CircleCI which will build the project and run tests.
  - Review results of tests.
+
+## Collabarations using Slack
+
+- Send notifications to everyone in the team with latest build status information.
+- We can see which commit triggered that build and who was reponsible for pushing that code in to github.
+
+## SSH access to builds
+
+- Using circleci we can ssh into running or completed build and troubleshoot the problem.
