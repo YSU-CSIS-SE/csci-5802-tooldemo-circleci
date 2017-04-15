@@ -17,22 +17,22 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 ## Use Cases
 
-* We are going to demonstrate four Use Cases of CircleCI.You can checkout the use cases of CircleCI at [Use Cases](https://github.com/YSU-CSIS-SE/csci-5802-tooldemo-circleci/blob/master/UseCases.md) page.
+* We are going to demonstrate four Use Cases of CircleCI.You can checkout the use cases of CircleCI at [Use Cases](https://github.com/YSU-CSIS-SE/csci-5802-tooldemo-circleci/blob/master/UseCases.md)
 
 **Use Case 1**
 
-* Check out Simple Small Project With Continous Integration Tests on CircleCI here link2.
+* Simple Small Project With Continous Integration Tests on CircleCI (link1).
 
 **Use Case 2**
 
-* Checkout Custom Configuration of CircleCI on a Large Open Source Project here link3.
+* Custom Configuration of CircleCI on a Large Open Source Project here (link2).
 
 **Use Case 3**
 
-* Check out Collabarations using Slack here link4.
+* Collabarations using Slack (link3).
 
 **Use Case 4**
 
-* Checkout SSH access to build here link5.
+* SSH access to build (link4).
 
 
