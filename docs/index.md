@@ -17,7 +17,7 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 ## Use Cases
 
-* We are going to demonstrate four Use Cases of CircleCI.You can checkout the use cases of CircleCI at link1 page.
+* We are going to demonstrate four Use Cases of CircleCI.You can checkout the use cases of CircleCI at [Use Cases](https://github.com/YSU-CSIS-SE/csci-5802-tooldemo-circleci/blob/master/UseCases.md) page.
 
 **Use Case 1**
 
@@ -34,6 +34,5 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 **Use Case 4**
 
 * Checkout SSH access to build here link5.
-
 
 
