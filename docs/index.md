@@ -13,7 +13,7 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 * Thousands of leading companies including Facebook, Spotify, Kickstarter, Nextdoor, Segment  rely on CircleCI.
 
-* According to CircleCI website over 100,000 commpanies and developers trust CircleCI
+* According to CircleCI website over 100,000 companies and developers trust CircleCI.
 
 ## Use Cases
 
@@ -21,15 +21,15 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 **Use Case 1**
 
-* check out Simple Small Project With Continous Integration Tests on CircleCI here link2.
+* Check out Simple Small Project With Continous Integration Tests on CircleCI here link2.
 
 **Use Case 2**
 
-* checkout Custom Configuration of CircleCI on a Large Open Source Project here link3.
+* Checkout Custom Configuration of CircleCI on a Large Open Source Project here link3.
 
 **Use Case 3**
 
-* check out Collabarations using Slack here link4.
+* Check out Collabarations using Slack here link4.
 
 **Use Case 4**
 
