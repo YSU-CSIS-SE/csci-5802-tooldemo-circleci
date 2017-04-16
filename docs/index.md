@@ -21,7 +21,7 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 **Use Case 1**
 
-* Simple Small Project With Continous Integration Tests on CircleCI (link1).
+* [Simple Small Project With Continous Integration Tests on CircleCI.](simple-small-project)
 
 **Use Case 2**
 
