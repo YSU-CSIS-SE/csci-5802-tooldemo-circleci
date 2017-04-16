@@ -25,14 +25,14 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 **Use Case 2**
 
-* Custom Configuration of CircleCI on a Large Open Source Project here (link2).
+* [Custom Configuration of CircleCI on a Large Open Source Project here.](open-source-project)
 
 **Use Case 3**
 
-* Collabarations using Slack (link3).
+* [Collabarations using Slack.](slack-collab)
 
 **Use Case 4**
 
-* SSH access to build (link4).
+* [SSH access to build.](ssh-access)
 
 
