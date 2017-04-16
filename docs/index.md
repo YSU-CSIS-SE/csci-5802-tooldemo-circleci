@@ -7,7 +7,27 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 * CircleCI’s continuous integration and delivery platform helps software teams rapidly release code  by automating the build, test, and deploy process.
 
 
-* CircleCI was founded in 2011 and  raised 28 millon dollars in funding.
+* CircleCI was founded in 2011 and  raised 28 million dollars in funding.
+
+## CircleCI Features
+
+* Source code 
+   * Smooth integration between CircleCI and Version Control system makes it easy to write source code and manage it.
+
+* Resolving Dependencies
+   * CircleCI uses language-specific tools like rvm and virtualenv to ensure dependencies are installed into an isolated environment.
+
+* Testing
+   * From unit tests with RSpec to integration tests using Docker Compose, you can run  variety of test scenarios right on CircleCI.
+
+* Debug
+   * CircleCI gives SSH access to any build. This makes debugging process very easy.
+
+* Deploy
+   * CircleCI lets you deploy to anything from your own datacenter to a Heroku cluster with a little customization.
+
+* Collaborations
+   * We can iIntegrate CircleCI with Slack,HipChat,Jira and communicate our build and test information. 
 
 ## CircleCI Users
 
@@ -34,5 +54,4 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 **Use Case 4**
 
 * [SSH access to build.](ssh-access)
-
 
