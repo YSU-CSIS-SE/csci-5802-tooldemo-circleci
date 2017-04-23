@@ -55,3 +55,7 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 * [SSH access to build.](ssh-access)
 
+## Evaluation of CircleCI
+
+TODO: Add criteria
+
