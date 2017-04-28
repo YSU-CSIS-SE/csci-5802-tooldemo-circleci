@@ -4,7 +4,7 @@
 
 [OpenCV](http://opencv.org) (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. (Taken from [http://opencv.org/about.html](http://opencv.org/about.html).)
 
-OpenCV includes unit tests which we can use to test OpenCV on CircleCI.  This example will show you the process to start testing OpenCV in a continous fashion on CircleCI.
+OpenCV includes unit tests which we can use to test OpenCV on CircleCI.  This example will show you the process to start testing OpenCV in a continuous fashion on CircleCI.
 
 ## Forking OpenCV
 
@@ -16,7 +16,7 @@ We will begin by forking our own repository of OpenCV. Go to [https://github.com
 
 In order to run the tests for OpenCV, we must first build it.  Before we can build it, we need to install some dependencies.  The tutorial for building OpenCV can be found [here.](http://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
 
-One way to setup these processes to install dependencies and build in CircleCI is by creating circle.yml file.  Let's start by cloning OpenCV.
+One way to setup these processes to install dependencies and build in CircleCI is by creating a `circle.yml` file.  Let's start by cloning OpenCV.
 
 ```
 git clone https://github.com/YOUR_USERNAME_HERE/opencv.git
@@ -49,6 +49,8 @@ test:
     - ./build/bin/opencv_test_core
 ```
 
+This tells CircleCI how to install the dependencies, build it, and test it.  Notice we override inferred commands.
+
 Commit the new file and push it to your fork of the OpenCV repository.
 
 ## Setting it up on CircleCI
@@ -79,4 +81,4 @@ Now you will have the build status badge on your github page!
 
 Again, hopefully yours will be passing!  From now on, each commit or PR will trigger a test to run on CircleCI which will update your status badge.
 
-That's it!
+That's it for this example!
