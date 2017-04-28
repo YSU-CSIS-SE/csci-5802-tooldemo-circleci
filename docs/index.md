@@ -55,6 +55,10 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 * [SSH access to build.](ssh-access)
 
+## Examples
+
+* [Running OpenCV Tests on CircleCI](opencv-on-circleci)
+
 ## Evaluation of CircleCI
 
 TODO: Add criteria
