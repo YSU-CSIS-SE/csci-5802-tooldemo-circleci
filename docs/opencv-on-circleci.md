@@ -31,23 +31,19 @@ Populate your `circle.yml` file with the following.
 ```
 machine:
   environment:
-    OPENCV_TEST_DATA_PATH: /opencv-extra
+    OPENCV_TEST_DATA_PATH: ~/opencv-extra
 
 dependencies:
   override:
-    - apt-get install build-essential
-    - apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-    - apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
-    - git clone https://github.com/opencv/opencv_extra.git /opencv-extra
+    - sudo apt-get install -y build-essential
+    - sudo apt-get install -y cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+    - sudo apt-get install -y python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+    - git clone https://github.com/opencv/opencv_extra.git ~/opencv-extra
 
 compile:
   override:
-    - mkdir build
-    - cd build
-    - cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
-    - make
+    - mkdir build && cd build && cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local .. && make
   
-
 test:
   override:
     - ./build/bin/opencv_test_core
@@ -65,4 +61,22 @@ Next, click your account name and then "Build Project" for your opencv repositor
 
 ![alt image](images/buildproject.png)
 
+It takes a little while, but your tests should eventually finish.  At the time of this writing, there was one failed test on the master branch.  Hopefully all of your tests will be passing.
 
+## Adding a Status Badge
+
+You can also add a status badge to the project indicating test status.  Go to the "Builds" tab and click the gear next to your opencv repository.
+
+![alt image](images/projectgear.png)
+
+Click "Status Badges" and copy the markdown then paste it into the top of your `README.md`
+
+![alt image](images/statusbadgecode.png)
+
+Now you will have the build status badge on your github page!
+
+![alt image](images/githubstatusbadge.png)
+
+Again, hopefully yours will be passing!  From now on, each commit or PR will trigger a test to run on CircleCI which will update your status badge.
+
+That's it!
