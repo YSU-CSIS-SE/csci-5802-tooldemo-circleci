@@ -61,5 +61,14 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 ## Evaluation of CircleCI
 
-TODO: Add criteria
+* CircleCI is Very easy to use and learning curve is small.
+
+* Testing speed is good. Dependency cache and Automatic parallelization of builds across multiple containers helps in speeding up the Testing process.
+
+* SSH acess to build is a excellent feature.
+
+* For Commercial users CircleCi is cheap compared to TravisCI and one build container free without limits.
+
+* When it comes to opensource projects Travis Ci is way better compared to Circle Ci.
+
 
