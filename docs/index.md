@@ -9,6 +9,8 @@ This document will demonstrate and describe [CircleCI](https://circleci.com/) an
 
 * CircleCI was founded in 2011 and  raised 28 million dollars in funding.
 
+Checkout our video introduction and demonstration [here.](https://youtu.be/93TZA3iGUqI)
+
 ## CircleCI Features
 
 * Source code 
